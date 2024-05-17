@@ -208,6 +208,7 @@ aside .menu-item:last-child(2){
     text-align: center;
     margin-top: 1rem;
 }
+/* ........ Start Notification Box...... */
 .notification-box {
     width: 20rem;
     left: 110%;
@@ -242,4 +243,19 @@ aside .menu-item:last-child(2){
 .notification-box>div small {
     display: block;
 }
+    /* ....... End Notification Box ..... */
+
 /* ............. End Main Section............. */
+
+/* ............. Start Main Middle Section............. */
+
+/* ............. Start Stories............. */
+.stories{
+    display: flex;
+    
+}
+/* ............. End Stories............. */
+
+
+/* ............. End Main Middle Section............. */
+
