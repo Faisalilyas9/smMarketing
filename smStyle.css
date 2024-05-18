@@ -263,9 +263,15 @@ aside .menu-item:last-child(2){
     border-radius: var(--card-border-radius);
     overflow: hidden;
 }
-.swiper-wrapper {
-    display: flex;
-    position: relative;
+.story::before {
+    height: 5rem;
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: black;
+
 }
 .story .profile-picture {
     position: absolute;
@@ -277,6 +283,9 @@ aside .menu-item:last-child(2){
 .story p {
     text-align: center;
     margin-top: -3rem;
+    z-index: 8;
+    position: absolute;
+    width: 100%;
 }
 .story>img {
     width: 100%;
